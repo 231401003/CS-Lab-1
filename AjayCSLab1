@@ -4,11 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import pandas as pd
-
 df = px.data.iris()
-
 attribute = 'sepal_length'
-
 print("1. Printing the First Five Records:")
 print(df.head())
 
